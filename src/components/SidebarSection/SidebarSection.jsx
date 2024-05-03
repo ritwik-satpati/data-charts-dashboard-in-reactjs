@@ -6,11 +6,16 @@ import { MdDashboard } from "react-icons/md";
 import { BsFillClipboard2DataFill } from "react-icons/bs";
 import { AiFillDatabase } from "react-icons/ai";
 import { BsFileEarmarkSpreadsheetFill } from "react-icons/bs";
-import { FaChartArea } from "react-icons/fa";
+import { FaChartSimple } from "react-icons/fa6";
 import { FaChartBar } from "react-icons/fa";
+import { MdOutlineStackedBarChart } from "react-icons/md";
 import { FaChartPie } from "react-icons/fa";
 import { BiSolidDoughnutChart } from "react-icons/bi";
 import { FaChartLine } from "react-icons/fa6";
+import { FaChartArea } from "react-icons/fa";
+import { BiScatterChart } from "react-icons/bi";
+import { AiOutlineRadarChart } from "react-icons/ai";
+import { TbChartHistogram } from "react-icons/tb";
 
 const SidebarSection = () => {
   return (
@@ -53,13 +58,19 @@ const SidebarSection = () => {
           <SidebarSectionTitle
             titleId={"chart-section-title"}
             titleName={"Chart"}
-            titleIcon={<FaChartArea />}
+            titleIcon={<FaChartSimple />}
           />
           <SidebarSectionItem
-            itemId={"chart_bar-chart"}
-            itemName={"Bar Chart"}
+            itemId={"chart_vertical-bar-chart"}
+            itemName={"Vertical Bar Chart"}
             itemIcon={<FaChartBar />}
-            itemPath={"/chart/bar-chart"}
+            itemPath={"/chart/vertical-bar-chart"}
+          />
+          <SidebarSectionItem
+            itemId={"chart_stacked-bar-chart"}
+            itemName={"Stacked Bar Chart"}
+            itemIcon={<MdOutlineStackedBarChart />}
+            itemPath={"/chart/stacked-bar-chart"}
           />
           <SidebarSectionItem
             itemId={"chart_pie-chart"}
@@ -78,6 +89,30 @@ const SidebarSection = () => {
             itemName={"Line Chart"}
             itemIcon={<FaChartLine />}
             itemPath={"/chart/line-chart"}
+          />
+          <SidebarSectionItem
+            itemId={"chart_area-chart"}
+            itemName={"Area Chart"}
+            itemIcon={<FaChartArea />}
+            itemPath={"/chart/area-chart"}
+          />
+          <SidebarSectionItem
+            itemId={"chart_scatter-chart"}
+            itemName={"Scatter Chart"}
+            itemIcon={<BiScatterChart />}
+            itemPath={"/chart/scatter-chart"}
+          />
+          <SidebarSectionItem
+            itemId={"chart_radar-chart"}
+            itemName={"Radar Chart"}
+            itemIcon={<AiOutlineRadarChart />}
+            itemPath={"/chart/radar-chart"}
+          />
+          <SidebarSectionItem
+            itemId={"chart_multitype-chart"}
+            itemName={"Multitype Chart"}
+            itemIcon={<TbChartHistogram />}
+            itemPath={"/chart/multitype-chart"}
           />
         </div>
       </div>

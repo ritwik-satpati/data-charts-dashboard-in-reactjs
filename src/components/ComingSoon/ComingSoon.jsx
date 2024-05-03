@@ -1,4 +1,3 @@
-import { memo } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 // Asset - Animation
 import animationData from "../../assets/animations/Animation - 1714650122845 - Coming Soon.json";
@@ -20,4 +19,4 @@ const ComingSoon = () => {
   );
 };
 
-export default memo(ComingSoon);
+export default ComingSoon;

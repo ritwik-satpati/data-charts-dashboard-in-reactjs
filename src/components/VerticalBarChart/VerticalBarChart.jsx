@@ -20,7 +20,7 @@ ChartJS.register(
   Legend
 );
 
-const BarChart = () => {
+const VerticalBarChart = () => {
   const options = {
     responsive: true,
     plugins: {
@@ -105,4 +105,4 @@ const BarChart = () => {
   );
 };
 
-export default BarChart;
+export default VerticalBarChart;

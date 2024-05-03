@@ -1,4 +1,3 @@
-import { memo } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 // Asset - Animation
 import animationData from "../../assets/animations/Animation - 1714646394585 - Loading.json";
@@ -20,4 +19,4 @@ const Loading = () => {
   );
 };
 
-export default memo(Loading);
+export default Loading;

@@ -1,4 +1,3 @@
-import { memo } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 // Asset - Animation
 import animationData from "../../assets/animations/Animation - 1714663732665 - Page Not Found.json";
@@ -20,4 +19,4 @@ const PageNotFound = () => {
   );
 };
 
-export default memo(PageNotFound);
+export default PageNotFound;

@@ -1,4 +1,3 @@
-import React from "react";
 import toast from "react-hot-toast";
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -11,15 +10,14 @@ const SidebarSectionItem = ({
 }) => {
 
   const navigate = useNavigate()
-  const loaction = useLocation()
-  const currentPath = location.pathname
+  const currentPath = useLocation().pathname
 
   const handleOnClick = () => {
     if (isActive) {
-      toast.success(itemPath);
+      toast.success(itemName);
       navigate(itemPath)
     } else {
-      toast.error("No Permission !");
+      toast.error(itemName + " : No Permission !");
       // toast("No Permission !", {
       //   icon: "🚫",
       // });

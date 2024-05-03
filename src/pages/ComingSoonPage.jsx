@@ -1,4 +1,3 @@
-import React from "react";
 // Layout
 import DashboardLayout from "../layout/DashboardLayout.jsx";
 // Component
@@ -9,7 +8,7 @@ const ComingSoonPage = () => {
     <>
       <DashboardLayout>
         <div className="space-y-4">
-          <div className="h-[500px] w-full flex items-center justify-center rounded-sm border shadow-sm shadow-black">
+          <div className="h-[500px] w-full flex items-center justify-center rounded-sm border shadow-sm bg-white shadow-black">
             <ComingSoon />
           </div>
         </div>

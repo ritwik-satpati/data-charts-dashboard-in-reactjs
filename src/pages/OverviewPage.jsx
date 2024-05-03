@@ -4,14 +4,14 @@ import DashboardLayout from "../layout/DashboardLayout.jsx";
 // Component
 import Loading from "../components/Loading/Loading.jsx";
 // Component - Lazy Loading
-const BarChart = lazy(() => import("../components/BarChart/BarChart.jsx"));
+const Overview = lazy(() => import("../components/Overview/Overview.jsx"));
 
-const BarChartPage = () => {
+const OverviewPage = () => {
   return (
     <>
       <DashboardLayout>
         <div className="space-y-4">
-          <div className="w-full flex items-center justify-center rounded-sm border shadow-sm bg-gray-50 shadow-black">
+          <div className="h-full w-full flex items-center justify-center">
             <Suspense
               fallback={
                 <div className="w-hull h-full">
@@ -19,7 +19,7 @@ const BarChartPage = () => {
                 </div>
               }
             >
-              <BarChart />
+              <Overview />
             </Suspense>
           </div>
         </div>
@@ -28,4 +28,4 @@ const BarChartPage = () => {
   );
 };
 
-export default BarChartPage;
+export default OverviewPage;

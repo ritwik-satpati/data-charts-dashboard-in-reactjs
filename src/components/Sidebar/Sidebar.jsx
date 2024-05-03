@@ -1,10 +1,14 @@
-import React from "react";
 // Component
 import SidebarSection from "../SidebarSection/SidebarSection.jsx";
 // Icon
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+// import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-const Sidebar = ({ isSidebarSmall, handleSidebarSize }) => {
+const Sidebar = (
+  // { 
+  //   isSidebarSmall, 
+  //   handleSidebarSize 
+  // }
+) => {
   return (
     <>
       <div className="flex flex-col items-center justify-between space-y-5">

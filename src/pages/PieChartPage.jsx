@@ -4,9 +4,9 @@ import DashboardLayout from "../layout/DashboardLayout.jsx";
 // Component
 import Loading from "../components/Loading/Loading.jsx";
 // Component - Lazy Loading
-const BarChart = lazy(() => import("../components/BarChart/BarChart.jsx"));
+const PieChart = lazy(() => import("../components/PieChart/PieChart.jsx"));
 
-const BarChartPage = () => {
+const PieChartPage = () => {
   return (
     <>
       <DashboardLayout>
@@ -19,7 +19,7 @@ const BarChartPage = () => {
                 </div>
               }
             >
-              <BarChart />
+              <PieChart />
             </Suspense>
           </div>
         </div>
@@ -28,4 +28,4 @@ const BarChartPage = () => {
   );
 };
 
-export default BarChartPage;
+export default PieChartPage;

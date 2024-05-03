@@ -4,9 +4,11 @@ import DashboardLayout from "../layout/DashboardLayout.jsx";
 // Component
 import Loading from "../components/Loading/Loading.jsx";
 // Component - Lazy Loading
-const BarChart = lazy(() => import("../components/BarChart/BarChart.jsx"));
+const DoughnutChart = lazy(() =>
+  import("../components/DoughnutChart/DoughnutChart.jsx")
+);
 
-const BarChartPage = () => {
+const DoughnutChartPage = () => {
   return (
     <>
       <DashboardLayout>
@@ -19,7 +21,7 @@ const BarChartPage = () => {
                 </div>
               }
             >
-              <BarChart />
+              <DoughnutChart />
             </Suspense>
           </div>
         </div>
@@ -28,4 +30,4 @@ const BarChartPage = () => {
   );
 };
 
-export default BarChartPage;
+export default DoughnutChartPage;

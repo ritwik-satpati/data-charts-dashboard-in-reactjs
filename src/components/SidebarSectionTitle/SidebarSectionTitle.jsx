@@ -1,7 +1,5 @@
-import React from "react";
-
 const SidebarSectionTitle = ({
-  isActive = true,
+  // isActive = true,
   titleId,
   titleName,
   titleIcon,

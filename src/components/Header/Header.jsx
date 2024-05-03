@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 
@@ -28,25 +27,25 @@ const Header = () => {
             <div className="flex-grow"></div>
             <div className="hidden md:flex ">
               <div
-                className="mr-4 font-Poppins cursor-pointer"
+                className="mr-4 font-Poppins hover:text-gray-400 cursor-pointer"
                 onClick={handleDemoLink}
               >
                 Home
               </div>
               <div
-                className="mr-4 font-Poppins cursor-pointer"
+                className="mr-4 font-Poppins hover:text-gray-400 cursor-pointer"
                 onClick={handleDemoLink}
               >
                 About
               </div>
               <div
-                className="mr-4 font-Poppins cursor-pointer"
+                className="mr-4 font-Poppins hover:text-gray-400 cursor-pointer"
                 onClick={handleDemoLink}
               >
                 Services
               </div>
               <div
-                className="font-Poppins cursor-pointer"
+                className="font-Poppins hover:text-gray-400 cursor-pointer"
                 onClick={handleDemoLink}
               >
                 Contact

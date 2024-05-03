@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   const siteVersion = "1.0.0";
   return (

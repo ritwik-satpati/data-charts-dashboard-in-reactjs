@@ -1,4 +1,4 @@
-import React, { useState, Suspense, lazy } from "react";
+import { useState, Suspense, lazy } from "react";
 import Header from "../components/Header/Header.jsx";
 import Sidebar from "../components/Sidebar/Sidebar.jsx";
 

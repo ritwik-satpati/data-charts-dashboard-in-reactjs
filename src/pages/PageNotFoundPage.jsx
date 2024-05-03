@@ -1,4 +1,3 @@
-import React from "react";
 // Layout
 import DashboardLayout from "../layout/DashboardLayout.jsx";
 // Component

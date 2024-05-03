@@ -1,4 +1,3 @@
-import React from "react";
 import { DataGrid, GridActionsCellItem } from "@mui/x-data-grid";
 // Icon
 import { FaRegCopy } from "react-icons/fa";
@@ -85,6 +84,7 @@ const columns = [
     flex: 0.5,
     getActions: () => [
       <GridActionsCellItem
+        // key={index}
         icon={<FaRegCopy />}
         label="Copy"
         style={{

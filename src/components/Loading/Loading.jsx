@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import { memo } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 // Asset - Animation
 import animationData from "../../assets/animations/Animation - 1714646394585 - Loading.json";
